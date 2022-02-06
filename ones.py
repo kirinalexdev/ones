@@ -226,7 +226,7 @@ class RunInfobase:
             # у командной строки запуска клиентских приложений и конфигуратора, формировался
             # в системной кодировке операционной системы.
             #
-            # №сточник:
+            # Nсточник:
             # https://dl04.1c.ru/content/Platform/8_3_18_1363/1cv8upd_8_3_18_1363.htm#a92fdc30-5e0a-11ea-8371-0050569f678a
             if (not self._platform_version or
              version.parse(self._platform_version) >= version.parse('8.3.18')):
